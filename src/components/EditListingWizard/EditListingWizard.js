@@ -25,6 +25,7 @@ import EditListingWizardTab, {
   LOCATION,
   PRICING,
   PHOTOS,
+  PASSENGERS
 } from './EditListingWizardTab';
 import css from './EditListingWizard.css';
 
@@ -43,6 +44,7 @@ export const TABS = [
   PRICING,
   ...availabilityMaybe,
   PHOTOS,
+  PASSENGERS,
 ];
 
 // Tabs are horizontal in small screens
@@ -62,6 +64,8 @@ const tabLabel = (intl, tab) => {
     key = 'EditListingWizard.tabLabelPricing';
   } else if (tab === AVAILABILITY) {
     key = 'EditListingWizard.tabLabelAvailability';
+  } else if (tab === PASSENGERS) {
+    key = 'EditListingWizard.tabLabelPassengers';
   } else if (tab === PHOTOS) {
     key = 'EditListingWizard.tabLabelPhotos';
   }

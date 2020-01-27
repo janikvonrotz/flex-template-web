@@ -42,6 +42,8 @@ export const categories = [
   { key: 'electric', label: 'Electric' },
   { key: 'wood', label: 'Wood' },
   { key: 'other', label: 'Other' },
+  { key: 'angelboote', label: 'Angelboote' },
+  { key: 'angelboote-klein', label: 'Angelboote Klein' },
 ];
 
 // Price filter configuration
